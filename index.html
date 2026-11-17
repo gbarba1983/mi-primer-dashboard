@@ -327,6 +327,16 @@
 
     .fecha-celda { color: var(--text-muted); }
 
+    /* ===== Pie de página ===== */
+    .pie {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
     /* ===== Diseño responsivo ===== */
     @media (max-width: 900px) {
       .paneles { grid-template-columns: 1fr; }
@@ -385,6 +395,11 @@
         </div>
       </article>
     </section>
+
+    <!-- Pie de página -->
+    <footer class="pie animado" style="--retraso: 0.8s">
+      Creado con Claude Code
+    </footer>
   </div>
 
   <script>
